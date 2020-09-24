@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/swiper.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <ul>
+          <li>
+            <img
+              src="./assets/images/netflix-logo-5.png"
+              id="logo"
+              alt="netflix"
+            />
+          </li>
+          <li>Inicio</li>
+          <li>Series</li>
+          <li>Filmes</li>
+          <li>Adicionados recentemente</li>
+          <li>Minha lista</li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <img src="./assets/images/papel.png" alt="" />
+    </div>
+
+    <h3 style="color: #fff; margin: 10px;">Filmes e Series populares</h3>
+    <!-- Swiper -->
+    <div class="netflix">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/breakingbad.webp" alt="breakingbad" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/constantine.webp" alt="constantine" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/semlimites.webp" alt="semlimites" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+        </div>
+        <!-- Add arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="netflix">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/breakingbad.webp" alt="breakingbad" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/constantine.webp" alt="constantine" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/semlimites.webp" alt="semlimites" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/vikings.webp" alt="vikings" />
+          </div>
+        </div>
+        <!-- Add arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    </script>
+  </body>
+</html>
